@@ -1,0 +1,227 @@
+@import url("https://fonts.googleapis.com/css2?family=Sono:wght@300;400;500;600;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  font-size: 16px;
+}
+
+body {
+  font-family: "Sono", sans-serif;
+  font-weight: 300;
+}
+
+/* NavBar */
+.social-icon {
+  width: 62px;
+  height: 62px;
+  display: inline-block;
+}
+.social-icon a img {
+  width: 40%;
+}
+
+.navbar {
+  position: fixed;
+  background-color: #0077FF;
+}
+.navbar a {
+  color: #FE7235;
+}
+
+/* Skills */
+.skills-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.skills-title {
+  margin: 5vh;
+  font-weight: bolder;
+  font-size: 75px;
+}
+
+.icons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding-top: 10px;
+  margin-left: 1%;
+  margin-right: 1%;
+  max-width: 1500px;
+  border-radius: 10px;
+  background: rgba(0, 0, 0, 0.2);
+  margin-bottom: 2vh;
+}
+
+.icon-image {
+  max-height: 120px;
+  margin: 20px;
+}
+
+/* Projects */
+.projects-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.project-icons {
+  max-height: 60px;
+  margin: 0px 30px 0px 30px;
+}
+
+.card-images {
+  width: 100%;
+  height: 300px;
+}
+
+.projects-title {
+  margin: 3vh;
+  font-weight: bolder;
+  font-size: 75px;
+}
+
+/* About */
+.about-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.about-header {
+  margin: 3vh;
+  font-weight: bolder;
+  font-size: 75px;
+}
+
+.profile-image {
+  max-width: 600px;
+  max-height: 50vh;
+  margin: 20px;
+  border-radius: 50px;
+}
+
+.about-me {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 25px;
+  padding: 20px;
+  padding-top: 60px;
+  border-radius: 10px;
+  max-width: 60vw;
+  background: rgba(0, 0, 0, 0.2);
+  margin: 20px;
+}
+
+.about-title-header {
+  padding: 25px;
+}
+
+.interests {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 80px;
+  max-width: 60vw;
+}
+
+.interests-header {
+  margin: 3vh;
+  font-weight: bolder;
+  font-size: 75px;
+}
+
+.interest-header {
+  margin-bottom: 25px;
+}
+
+.percy {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 25px;
+  padding: 20px;
+  padding-top: 60px;
+  border-radius: 10px;
+  max-width: 60vw;
+  background: rgba(0, 0, 0, 0.2);
+  margin: 10px;
+}
+
+.percy-image {
+  max-width: 600px;
+  max-height: 50vh;
+  border-radius: 15px;
+}
+
+.percy-text {
+  padding: 20px;
+}
+
+.football {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 25px;
+  padding: 20px;
+  padding-top: 60px;
+  border-radius: 10px;
+  max-width: 60vw;
+  background: rgba(0, 0, 0, 0.2);
+  margin: 20px;
+}
+
+.football-image {
+  max-width: 600px;
+  max-height: 25vh;
+  border-radius: 15px;
+}
+
+.football-text {
+  padding: 20px;
+}
+
+.computer-games {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 25px;
+  padding: 20px;
+  padding-top: 60px;
+  border-radius: 10px;
+  max-width: 60vw;
+  background: rgba(0, 0, 0, 0.2);
+  margin: 20px;
+}
+
+.grounded-image {
+  max-width: 600px;
+  max-height: 25vh;
+  border-radius: 15px;
+}
+
+.games-text {
+  padding: 20px;
+}
+
+.carousel {
+  max-width: 500px;
+}/*# sourceMappingURL=main.css.map */

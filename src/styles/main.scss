@@ -1,0 +1,289 @@
+@import url('https://fonts.googleapis.com/css2?family=Sono:wght@300;400;500;600;700&display=swap');
+
+$cream: #FCF5EF;
+$lightorange: #FEA735;
+$deeporange: #FE7235;
+$lightblue: #00C3FF;
+$standardblue: #0077FF;
+$petrolblue: #00284d;
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  font-size: 16px;
+  scroll-padding-top: 150px;
+}
+
+body {
+  font-family: 'Sono', sans-serif;
+  font-weight: 300;
+  background-color: $petrolblue;
+  color: white;
+  
+}
+
+h1 {
+  color: #ff8000;
+  font-size: 45px;
+}
+
+h4 {
+  color: #ff8000;
+}
+
+p {
+  color: white;
+}
+
+.my-image {
+  border-radius: 50%;
+}
+
+
+/* NavBar */
+
+.social-icon {
+  align-items: center;
+  display: flex;
+  width: 100px;
+  height: 42px;
+
+  a svg {
+    width: 30px;
+    margin-left: 10px;
+  }
+}
+
+
+
+.navbar {
+  background-color: #ff8000;
+  a {
+    color: $petrolblue;
+    margin-left: 10px;
+  }
+}
+
+/* Banner */
+
+.banner {
+  margin-top: 200px;
+}
+
+/* Skills */
+
+.skills {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  margin-top: 250px;
+  
+}
+
+.skills-title {
+  margin: 5vh;
+  font-weight: bolder;
+  font-size: 45px;
+  color: #ff8000;
+  text-align: center;
+}
+
+.icon-main {
+  display: flex;
+  justify-content: center;
+}
+
+.icon-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+.icons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding-top: 10px; 
+  margin-left: 1%;
+  margin-right: 1%;
+  max-width: 1500px;
+  border-radius: 10px;
+  background: rgba(0,0,0,.2);
+  margin-bottom: 2vh;
+}
+
+.icon-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition: all .2s ease-in-out;
+  
+}
+
+.icon-image {
+  max-height:120px;
+  margin: 20px;
+}
+
+.tag-title {
+  justify-content: center;
+}
+
+/* Projects */
+
+.projects {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  margin-top: 250px;
+}
+
+.projects-title {
+  margin: 5vh;
+  font-weight: bolder;
+  font-size: 45px;
+  color: #ff8000;
+  text-align: center;
+}
+
+.project-icons {
+  max-height: 60px;
+  margin: 0px 30px 0px 30px;
+}
+
+.card-images {
+  width: 100%;
+  height: 300px;
+}
+
+.card {
+  background-color: $petrolblue;
+  max-width: 600px;
+}
+
+.card-title {
+  color: #ff8000;
+}
+
+
+/* About */
+
+.about-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 250px;
+}
+
+.about-header {
+  margin: 3vh;
+  font-weight: bolder;
+  font-size: 75px;
+}
+
+
+
+.profile-image {
+  max-width: 600px;
+  max-height: 50vh;
+  margin: 20px;
+  border-radius: 50px; 
+}
+
+.about-me {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 25px;
+  padding: 20px;
+  padding-top: 60px;
+  border-radius: 10px;
+  max-width: 60vw;
+  background: rgba(0,0,0,.2);
+  margin: 20px;
+}
+
+.about-title-header {
+  padding: 25px;
+}
+
+.interests {
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 80px;
+  max-width: 60vw;
+}
+
+.interests-header {
+  margin: 3vh;
+  font-weight: bolder;
+  font-size: 75px;
+  
+}
+
+.interest-header {
+  margin-bottom: 25px;
+}
+
+.percy-text {
+  padding: 20px;
+}
+
+
+
+.football-image {
+  max-width: 600px;
+  max-height: 25vh;
+  border-radius: 15px;
+}
+
+.football-text {
+  padding: 20px;
+}
+
+.computer-games {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 25px;
+  padding: 20px;
+  padding-top: 60px;
+  border-radius: 10px;
+  max-width: 60vw;
+  background: rgba(0,0,0,.2);
+  margin: 20px;
+}
+
+.grounded-image {
+  max-width: 600px;
+  max-height: 25vh;
+  border-radius: 15px;
+}
+
+.games-text {
+  padding: 20px;
+}
+
+.carousel {
+  max-width: 500px;
+}
