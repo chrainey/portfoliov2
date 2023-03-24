@@ -41,13 +41,13 @@ const projects = [
 
 const Projects = () => {
   return (
-    <section className='projects'>
+    <section className='projects' id='projects'>
       <Container >
         <h1 className='projects-title'>My Projects</h1>
-        <Row >
+        <Row className='gy-4'>
           {projects.map((projects, index) => (
             <Col sm='12' md='12' lg='6' >
-              <Card className='mb-4' key={index}>
+              <Card className='h-100' key={index}>
                 <Card.Img className='card-images' variant="top" src={projects.imgUrl} />
                 <Card.Body>
                   <Card.Title>{projects.title}</Card.Title>
